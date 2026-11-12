@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="hashsure terminal demo">
+  <style>
+    .l{font-family:Consolas,Menlo,monospace;font-size:15px;opacity:0;animation:show 10s infinite}
+    .p{fill:#38bdf8}.g{fill:#86efac}.r{fill:#fca5a5}.d{fill:#94a3b8}.w{fill:#e2e8f0}
+    .a1{animation-delay:0s}.a2{animation-delay:1s}.a3{animation-delay:2.2s}.a4{animation-delay:3s}
+    .a5{animation-delay:4.4s}.a6{animation-delay:5s}.a7{animation-delay:6.2s}.a8{animation-delay:6.8s}.a9{animation-delay:7.4s}
+    @keyframes show{0%{opacity:0}3%{opacity:1}92%{opacity:1}100%{opacity:0}}
+  </style>
+  <rect width="760" height="250" rx="12" fill="#0b1220"/>
+  <rect width="760" height="30" rx="12" fill="#1e293b"/>
+  <circle cx="20" cy="15" r="6" fill="#f87171"/><circle cx="40" cy="15" r="6" fill="#fbbf24"/><circle cx="60" cy="15" r="6" fill="#4ade80"/>
+  <text class="l a1" x="20" y="60"><tspan class="p">$</tspan><tspan class="w"> python hashsure.py release.zip</tspan></text>
+  <text class="l a2 d" x="20" y="82" xml:space="preserve">e3b0c44298fc1c149afbf4c8996fb924...b855  release.zip</text>
+  <text class="l a3" x="20" y="112"><tspan class="p">$</tspan><tspan class="w"> python hashsure.py release.zip --expect e3b0c442...</tspan></text>
+  <text class="l a4 g" x="20" y="134">OK  release.zip (sha256)</text>
+  <text class="l a5" x="20" y="164"><tspan class="p">$</tspan><tspan class="w"> python hashsure.py -r dist -o SHA256SUMS</tspan></text>
+  <text class="l a6 d" x="20" y="186">wrote 12 checksum(s) to SHA256SUMS</text>
+  <text class="l a7" x="20" y="210"><tspan class="p">$</tspan><tspan class="w"> python hashsure.py --verify SHA256SUMS</tspan></text>
+  <text class="l a8 g" x="20" y="230" xml:space="preserve">OK        dist/app.exe</text>
+  <text class="l a9 r" x="20" y="246" xml:space="preserve">FAILED    dist/lib.dll</text>
+</svg>
